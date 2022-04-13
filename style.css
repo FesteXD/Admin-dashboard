@@ -1,0 +1,20 @@
+body {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    grid-template-rows: 1fr 4fr;
+    outline: 1px red solid;
+}
+nav {
+    grid-row: 1 / 3;
+}
+header {
+    outline: 1px red solid;
+
+}
+main {
+    outline: 1px red solid;
+
+}
+li {
+    list-style-type: none;
+}
