@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
 
 :root {
     --assetcolor: #0ea5e9;
@@ -163,6 +163,7 @@ main {
     display: grid;
     grid-template-columns: 3fr 1fr;
     padding: 3%;
+    gap: 30px;
 
 
 
@@ -171,9 +172,69 @@ main > #projects {
     grid-row: 1 / 3;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr repeat(6, 2fr);
+    grid-template-rows: 0.5fr repeat(3, 2fr);
+    gap: 30px;
+    
 }
+#projects > #project {
+    background: white;
+    border-radius: 15px;
+    border-left: 15px solid var(--assetcolor);
+    padding: 5%;
+    font-size: 20px;
+    box-shadow: 3px 4px 5px 1px rgb(187 187 187);
+}
+
+
 #content-headline {
     grid-column: 1 / 3;
 }
+
+.gray {
+    color: rgb(110, 110, 110);
+}
+
+
+#announcements > h2  {
+    margin-bottom: 15%;
+}
+#announcements > div {
+    background-color: white;
+    padding: 5%;
+    border-radius: 15px;
+    box-shadow: 3px 4px 5px 1px rgb(187 187 187);
+
+}
+#announcements-content{
+    display: grid;
+    gap: 1.5px;
+    background-color: rgb(109, 109, 109);
+}
+#announcements-content > div {
+    background-color: white;
+}
+
+
+#trending {
+    background-color: white;
+    border-radius: 15px;
+    padding: 5%;
+    display: grid;
+    gap: 50px;
+    font-size: 18px;
+    box-shadow: 3px 4px 5px 1px rgb(187 187 187);
+    
+}
+#trending > #trending-content {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+#trending-content > svg {
+    grid-row: 1 / 3;
+    place-self: center;
+}
+#trending-content > p {
+    margin: 0px;
+}
+
 
